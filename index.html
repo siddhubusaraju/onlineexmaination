@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Examination System</title>
+</head>
+<body>
+
+    <div id="login">
+        <h1>Online Examination System</h1>
+        <input type="text" id="name" placeholder="Username">
+        <button onclick="startExam()">Login</button>
+    </div>
+
+    <div id="exam" style="display: none;">
+        <h1 id="welcome"></h1>
+
+        <p>HTML?</p>
+        <input type="radio" name="q1" value="1">Hyper Text Markup Language<br>
+        <input type="radio" name="q1" value="0">Home Tool Markup Language<br>
+
+        <p>CSS?</p>
+        <input type="radio" name="q2" value="1">Styling<br>
+        <input type="radio" name="q2" value="0">Coding<br>
+
+        <button onclick="calculateResult()">Submit</button>
+    </div>
+
+    <div id="result" style="display: none;">
+        <h1>Result</h1>
+        <p id="score"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

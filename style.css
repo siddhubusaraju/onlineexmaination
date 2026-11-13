@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#result {
+    background-color: lightgreen;
+}
+
+#score {
+    font-size: 25px;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+input {
+    margin: 10px;
+}
